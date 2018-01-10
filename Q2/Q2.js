@@ -1,0 +1,2 @@
+document.querySelector('.course_logo img').setAttribute("style","transform: rotate(90deg);");
+document.querySelector('.course_logo img').onmouseover = function(){ this.setAttribute("style","transform: rotate(0deg);  transition:all 1s;") }
